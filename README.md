@@ -1,7 +1,7 @@
 # CPE_audio_vis
 Circuit Playground Express audio visualizer.
 
-Improves on the default audio visualizer through:
+Improves on the `Adafruit_CircuitPlayground` library example audio visualizer through:
 
 - Correct FFT implementation
   - Replace the Adafruit_ZeroFFT library in your `Arduino/libraries` directory with donmccoy's [bugfix](https://github.com/donmccoy/Adafruit_ZeroFFT.git)
